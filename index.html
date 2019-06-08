@@ -18,7 +18,30 @@
 	padding: 50px;
 	text-align: center;
 }
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 	/* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -49,11 +72,13 @@
 		<h1>My Life Story🤡</h1>
 	</div>
 
-</body>
-
-    <ul> Timeline</ul>
-    <p1>2007-2009</p>
-		<p2>Work part-time at small, hip social media marketing firm, doing market research, data entry, powerpoint compilation,excel stuff, love it. Can't advance or go full-time without college degree.  ($13/hr)</p2>
+<div class="topnav">
+		<a href="https://youtu.be/dQw4w9WgXcQ">Link</a>
+		</div>
+		<div class="column">
+    <h1> Timeline</h1>
+    <h2>2007-2009</h2>
+		<p>Work part-time at small, hip social media marketing firm, doing market research, data entry, powerpoint compilation,excel stuff, love it. Can't advance or go full-time without college degree.  ($13/hr)</p2>
 	<hr>	
 	<bl></bl>
     <p1>2009-2012</p1>
